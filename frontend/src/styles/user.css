@@ -1,0 +1,197 @@
+.user-div {
+  margin: 4%;
+}
+
+.user-header {
+  text-align: center;
+  background: #f3f3f8;
+  padding: 4% 0;
+}
+
+.back-arrow {
+  float: left;
+}
+
+.user-profile-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  text-align: center;
+  color: #082431;
+}
+
+label {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  float: left;
+  margin: 4% 0;
+}
+
+.label-div {
+  margin-bottom: 4%;
+}
+
+input,
+select {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 3% 0;
+  width: 100%;
+}
+
+.user-name-input {
+  width: 60%;
+  float: left;
+  margin-top: 5%;
+}
+
+.profile-pic {
+  width: 28%;
+  height: 80px;
+  float: right;
+}
+
+.profile-div {
+  position: relative;
+}
+
+.add-img {
+  position: absolute;
+  top: 50px;
+  right: 30%;
+  padding: 7px;
+  font-size: 15px !important;
+  background: #525298;
+  border-radius: 10px 10px 10px 5px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  color: #ffffff;
+}
+
+input::placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: rgba(0, 0, 0, 0.55);
+}
+
+.input-field-div {
+  display: grid;
+  position: relative;
+}
+
+.search-icon {
+  z-index: 2;
+  position: absolute;
+  right: 5px;
+  top: 40%;
+  color: #2c3a4b;
+  opacity: 0.5;
+}
+
+.toggle-password {
+  margin-left: -30px;
+  cursor: pointer;
+}
+
+.tel-input {
+  width: 78%;
+}
+
+.tel-select {
+  width: 20%;
+}
+
+.gender-label,
+.gender-input {
+  width: fit-content;
+  margin-right: 5px;
+}
+
+.gender-label {
+  margin-right: 15px;
+}
+.gender-options {
+  float: right;
+  padding: 0 4%;
+}
+
+.language-options {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.08em;
+  color: rgba(0, 0, 0, 0.55);
+  padding: 2%;
+  float: right;
+}
+
+.language-options-span {
+  float: initial;
+}
+
+.language-options-selected {
+  background: #525298;
+  color: #ffffff;
+}
+
+.save {
+  background: #b3b3b3;
+  width: 80%;
+  display: block;
+  margin: auto;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  /* identical to box height, or 173% */
+
+  text-align: center;
+  letter-spacing: 2px;
+
+  color: #ffffff;
+  border-radius: 15px;
+  padding: 4% 0;
+}
+
+.enable {
+    background: #525298;
+}
+.success-heading {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+text-align: center;
+text-transform: uppercase;
+
+color: #525298;
+
+}
+
+.success-sub-heading {
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+
+text-align: center;
+
+color: #727477;
+
+}
